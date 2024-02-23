@@ -1,0 +1,7 @@
+<!-- File: my_cv_camera_launch.launch -->
+
+<launch>
+    <node pkg="robot_nav" type="test.py" name="camera" output="screen" />
+  
+
+</launch>

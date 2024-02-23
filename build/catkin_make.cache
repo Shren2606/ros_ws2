@@ -1,0 +1,2 @@
+robot_nav
+-DCATKIN_DEVEL_PREFIX=/home/thien/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/thien/ros_ws/install -G Unix Makefiles
