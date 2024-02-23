@@ -65,10 +65,10 @@ window.title("Chạy Lệnh Robot và Hiển Thị Hình Ảnh từ ROS Topic")
 label = tk.Label(window)
 label.pack()
 
-img = Image.new('RGB', (640, 480), color='gray')
+"""img = Image.new('RGB', (640, 480), color='gray')
 img = ImageTk.PhotoImage(image=img)
 label.config(image=img)
-label.image = img
+label.image = img"""
 
 # Tạo nút nhấn để chạy lệnh roslaunch và hiển thị hình ảnh
 button_run_display = tk.Button(window, text="Khoi dong", command=run_command_and_display)
